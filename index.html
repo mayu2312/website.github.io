@@ -1,12 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testing Website</title>
+	<title>Template Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1 style="display: block;text-align: center;">Website YM</h1>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section>
+			<h1>Welcome to our Website</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel sapien est. Nam pretium, felis vel dapibus pharetra, ex purus laoreet felis, sed euismod turpis enim ac dolor. In in dignissim elit. Vestibulum lacinia tellus vel mauris luctus laoreet. Morbi nec nisi vitae mauris eleifend pellentesque.</p>
+		</section>
+
+		<section>
+			<h2>About Us</h2>
+			<p>Nullam auctor lacus justo, eu gravida eros rhoncus vel. Morbi fermentum fringilla tortor a sollicitudin. Aenean efficitur eleifend lectus vitae interdum. In hac habitasse platea dictumst. Integer vulputate metus ac risus vestibulum blandit. Fusce quis diam velit. </p>
+		</section>
+
+		<section>
+			<h2>Contact Us</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br>
+
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea><br>
+
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 by Template Website. All Rights Reserved.</p>
+	</footer>
 </body>
 </html>
